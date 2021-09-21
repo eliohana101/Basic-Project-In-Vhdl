@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 05/06/2019 08:46:47 PM
 -- Design Name: 
--- Module Name: traffic_lights - Behavioral
+-- Module Name: TRAFFIC_LIGHTS_TB - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
