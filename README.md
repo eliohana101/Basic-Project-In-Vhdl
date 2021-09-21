@@ -1,2 +1,2 @@
 # Basic-Project-In-Vhdl
-Projects I performed as part of XILINX Labs
+Projects I Performed As Part Of XILINX Labs
