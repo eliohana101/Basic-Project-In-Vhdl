@@ -1,23 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 04/15/2019 08:18:18 PM
--- Design Name: 
--- Module Name: Necular_Alarm_TB - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -31,13 +11,13 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Necular_Alarm_TB is
+entity alarm_countr_TB is
 --  Port ( );
-end Necular_Alarm_TB;
+end alarm_countr_TB;
 
-architecture Behavioral of Necular_Alarm_TB is
+architecture Behavioral of alarm_countr_TB is
 
-component Necular_Alarm
+component alarm_countr
     Port ( CLK_50M : in STD_LOGIC;
            RST : in STD_LOGIC;
            RAD : in STD_LOGIC;
@@ -54,7 +34,7 @@ constant clock_period : time := 20 ns;
 
 begin
 
-uut: Necular_Alarm PORT MAP (
+uut: alarm_countr PORT MAP (
     CLK_50M => CLK_50M,
     RST => RST,
     RAD => RAD,
