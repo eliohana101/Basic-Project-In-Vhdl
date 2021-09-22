@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 04/15/2019 07:56:35 PM
 -- Design Name: 
--- Module Name: Necular_Alarm - Behavioral
+-- Module Name: alarm_countr - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,14 +31,14 @@ use IEEE.std_logic_unsigned.all;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Necular_Alarm is
+entity alarm_countr is
     Port ( CLK_50M : in STD_LOGIC;
            RST : in STD_LOGIC;
            RAD : in STD_LOGIC;
            ALARM : out STD_LOGIC);
-end Necular_Alarm;
+end alarm_countr;
 
-architecture Behavioral of Necular_Alarm is
+architecture Behavioral of alarm_countr is
 
 signal count : STD_LOGIC_VECTOR (8 downto 0) := (others => '0');
 
