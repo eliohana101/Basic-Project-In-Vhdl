@@ -11,13 +11,13 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity reset_bridge is
+entity meta_stability is
     Port ( clk_dst : in STD_LOGIC;
            rst_in : in STD_LOGIC;
            rst_out : out STD_LOGIC);
-end reset_bridge;
+end meta_stability;
 
-architecture Behavioral of reset_bridge is
+architecture Behavioral of meta_stability is
 
 begin
 
