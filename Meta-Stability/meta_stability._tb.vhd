@@ -4,13 +4,13 @@ USE ieee.std_logic_1164.ALL;
 
 USE ieee.numeric_std.ALL;
  
-ENTITY reset_bridge_tb IS
-END reset_bridge_tb;
+ENTITY meta_stability_tb IS
+END meta_stability_tb;
  
-ARCHITECTURE behavior OF reset_bridge_tb IS 
+ARCHITECTURE behavior OF meta_stability_tb IS 
  
  
-    COMPONENT reset_bridge
+    COMPONENT meta_stability
     PORT(
          clk_dst : IN  std_logic;
          rst_in : IN  std_logic;
@@ -30,7 +30,7 @@ ARCHITECTURE behavior OF reset_bridge_tb IS
  
 BEGIN
  
-   uut: reset_bridge PORT MAP (
+   uut: meta_stability PORT MAP (
           clk_dst => clk_dst,
           rst_in => rst_in,
           rst_out => rst_out
